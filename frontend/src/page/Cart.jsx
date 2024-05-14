@@ -54,7 +54,7 @@ const Cart = () => {
           Your Cart Items{" "}
         </h2>
         {productCartItem[0] ? (
-          <div className="my-4 flex gap-3">
+          <div className="my-4 md:flex gap-3">
             {/* display cart items */}
             <div className="w-full max-w-3xl">
               {productCartItem.map((el) => {
