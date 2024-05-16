@@ -4,8 +4,7 @@ import CardFeature from "../component/CardFeature";
 import loadingImage from "../assets/loading.gif";
 import { GrFormPrevious } from "react-icons/gr";
 import { GrFormNext } from "react-icons/gr";
-import { useEffect, useRef, useState } from "react";
-import FilterProduct from "../component/FilterProduct";
+import { useRef } from "react";
 import Allproduct from "../component/Allproduct";
 
 const Home = () => {

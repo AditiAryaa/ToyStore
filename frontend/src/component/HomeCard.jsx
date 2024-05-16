@@ -24,8 +24,7 @@ const HomeCard = ({ name, image, category, price, loading, id }) => {
         </>
       ) : (
         <div className="flex items-center justify-center h-full">
-          <p>Loading...</p>
-          {/* <img src={loading} className="h-5" /> */}
+          <img src={loading} className="h-5" />
         </div>
       )}
     </div>
